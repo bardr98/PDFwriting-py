@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # creating a pdf reader object
-reader = PdfReader(r"C:\Users\bardr\Downloads\Session_2 (1).pdf")
+reader = PdfReader(r"mypdf")
 
 # printing number of pages in pdf file
 print(len(reader.pages))
@@ -21,7 +21,7 @@ image = Image.new(mode='RGB', size=(width, height), color='white')
 
 # Specify the font file path
 # you need to download a font first at: https://www.dafont.com/theme.php?cat=603
-font_path = r"C:\Users\bardr\Downloads\simple_handmade_2\SimpleHandmade.ttf"
+font_path = r"SimpleHandmade.ttf"
 
 # Set the font size
 font_size = 30
